@@ -1,14 +1,12 @@
-import React from 'react';
 import {
     Box,
     Button,
-    ButtonBase,
-    Paper,
     Stack,
     StackProps,
     Typography,
     useTheme,
 } from '@mui/material';
+import React from 'react';
 
 export interface MindNode {
     id: string;
@@ -163,27 +161,29 @@ const MindMapEdges: React.FC<{ nodes: MindNode[] }> = ({ nodes }) => {
     );
 };
 
-export const MindMap: React.FC<{ nodes: MindNode[] }> = ({ nodes }) => (
-    <>
-        <Box
-            sx={{
-                position: 'absolute',
-                pointerEvents: 'none',
-                top: 0,
-                left: 0,
-                width: '100vw',
-                height: '100vh',
-            }}
-        >
-            <MindMapEdges nodes={nodes} />
-        </Box>
-        <Stack
-            flexDirection={'row'}
-            justifyContent={'center'}
-            alignItems={'center'}
-            width={'100vw'}
-        >
-            <MindMapGroup nodes={nodes} />
-        </Stack>
-    </>
-);
+export const MindMap: React.FC<{ nodes: MindNode[] }> = ({ nodes }) => {
+    return (
+        <>
+            <Box
+                sx={{
+                    position: 'absolute',
+                    pointerEvents: 'none',
+                    top: 0,
+                    left: 0,
+                    width: '100vw',
+                    height: '100vh',
+                }}
+            >
+                <MindMapEdges nodes={nodes} />
+            </Box>
+            <Stack
+                flexDirection={'row'}
+                justifyContent={'center'}
+                alignItems={'center'}
+                width={'100vw'}
+            >
+                <MindMapGroup nodes={nodes} />
+            </Stack>
+        </>
+    );
+};
