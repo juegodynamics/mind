@@ -1,0 +1,165 @@
+dl-pfc:
+  name: Executive Function
+  anatomy: Dorsolateral Prefrontal Cortex (dlPFC)
+  contains:
+    working_memory: 
+      name: Short-term Memory
+      anatomy: Working Memory
+      contains:
+        phonological_loop:
+        # etc
+        name: Auditory Information
+        anatomy: Phonological Loop
+        contains:
+          - id: phonological_store
+            name: Sound Information
+            anatomy: Phonological Store
+            contains:
+              - id: auditory_perception
+                name: Recognition of Sounds
+                anatomy: Auditory Cortex
+          - id: articulatory_rehearsal
+            name: Repetition of Sounds
+            anatomy: Articulatory Rehearsal Process
+            contains:
+              - id: subvocal_rehearsal
+                name: Internal Speech
+                anatomy: Broca's Area
+      - id: visuospatial_sketchpad
+        name: Visual and Spatial Information
+        anatomy: Visuospatial Sketchpad
+        contains:
+          - id: visual_cache
+            name: Storage of Visual Data
+            anatomy: Visual Cache
+            contains:
+              - id: object_recognition
+                name: Identification of Objects
+                anatomy: Inferior Temporal Cortex
+          - id: inner_scribe
+            name: Spatial and Movement Information
+            anatomy: Inner Scribe
+            contains:
+              - id: spatial_navigation
+                name: Navigation and Movement
+                anatomy: Parietal Cortex
+  - id: cognitive_control
+    name: Regulation of Thoughts and Actions
+    anatomy: Cognitive Control
+    contains:
+      - id: response_inhibition
+        name: Suppression of Unwanted Actions
+        anatomy: Response Inhibition
+        contains:
+          - id: inhibitory_control
+            name: Self-Control
+            anatomy: Inhibitory Control
+            contains:
+              - id: pre-sma
+                name: Motor Inhibition
+                anatomy: Pre-Supplementary Motor Area (pre-SMA)
+          - id: interference_control
+            name: Managing Distractions
+            anatomy: Interference Control
+            contains:
+              - id: stroop_effect
+                name: Handling Conflicting Information
+                anatomy: Anterior Cingulate Cortex
+      - id: task_switching
+        name: Shifting Attention
+        anatomy: Task Switching
+        contains:
+          - id: set_shifting
+            name: Switching Between Tasks
+            anatomy: Set Shifting
+            contains:
+              - id: executive_attention
+                name: Focusing on Relevant Tasks
+                anatomy: Anterior Prefrontal Cortex
+          - id: cognitive_flexibility
+            name: Adapting to New Rules
+            anatomy: Cognitive Flexibility
+            contains:
+              - id: rule_application
+                name: Applying New Rules
+                anatomy: Inferior Frontal Gyrus
+  - id: problem_solving
+    name: Complex Thinking and Reasoning
+    anatomy: Problem Solving
+    contains:
+      - id: abstract_reasoning
+        name: Understanding Concepts
+        anatomy: Abstract Reasoning
+        contains:
+          - id: pattern_recognition
+            name: Identifying Patterns
+            anatomy: Pattern Recognition
+            contains:
+              - id: visual_patterns
+                name: Recognizing Visual Patterns
+                anatomy: Occipital Cortex
+          - id: concept_formation
+            name: Forming New Ideas
+            anatomy: Concept Formation
+            contains:
+              - id: semantic_memory
+                name: Understanding Meanings
+                anatomy: Temporal Cortex
+      - id: logical_thinking
+        name: Deductive and Inductive Reasoning
+        anatomy: Logical Thinking
+        contains:
+          - id: deductive_reasoning
+            name: Drawing Specific Conclusions
+            anatomy: Deductive Reasoning
+            contains:
+              - id: syllogistic_reasoning
+                name: Logical Arguments
+                anatomy: Frontal Cortex
+          - id: inductive_reasoning
+            name: Generalizing from Specific Cases
+            anatomy: Inductive Reasoning
+            contains:
+              - id: pattern_extrapolation
+                name: Generalizing Patterns
+                anatomy: Parietal Cortex
+  - id: decision_making
+    name: Choosing Among Alternatives
+    anatomy: Decision Making
+    contains:
+      - id: risk_assessment
+        name: Evaluating Potential Outcomes
+        anatomy: Risk Assessment
+        contains:
+          - id: cost_benefit_analysis
+            name: Weighing Costs and Benefits
+            anatomy: Cost-Benefit Analysis
+            contains:
+              - id: economic_decision_making
+                name: Financial Decisions
+                anatomy: Orbitofrontal Cortex
+          - id: probability_estimation
+            name: Estimating Likelihoods
+            anatomy: Probability Estimation
+            contains:
+              - id: statistical_analysis
+                name: Analyzing Probabilities
+                anatomy: Parietal Cortex
+      - id: reward_processing
+        name: Evaluating Rewards and Costs
+        anatomy: Reward Processing
+        contains:
+          - id: reward_prediction
+            name: Anticipating Rewards
+            anatomy: Reward Prediction
+            contains:
+              - id: dopamine_system
+                name: Reward Signals
+                anatomy: Ventral Tegmental Area (VTA)
+          - id: value_assessment
+            name: Assigning Value to Outcomes
+            anatomy: Value Assessment
+            contains:
+              - id: subjective_value
+                name: Personal Value Assignment
+                anatomy: Medial Prefrontal Cortex

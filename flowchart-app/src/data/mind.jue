@@ -1,0 +1,8 @@
+[dl-pfc:Executive Function:Dorsolateral Prefrontal Cortex (dlPFC)]
+-->[motor-cortex:glu-prj,dop-mod]
+-->[parietal-lobe:glu-prj,dop-mod] {
+    [working-memory:Working Memory:dlPFC - Working Memory Circuits] {
+        [verbal-working-memory:Verbal Working Memory:Left dlPFC - Verbal Working Memory Circuits]
+        [spatial-working-memory:Spatial Working Memory:Right dlPFC - Spatial Working Memory Circuits]
+    }
+}

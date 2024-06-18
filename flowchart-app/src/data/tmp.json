@@ -1,0 +1,138 @@
+{
+    "id": "central-executive",
+    "name": "Central Executive",
+    "anatomy": "dlPFC - Central Executive Circuits",
+    "endpoints": [
+        "Attentional Control",
+        "Information Updating",
+        "Task Switching"
+    ],
+    "contains": [
+        {
+            "id": "attentional-control",
+            "name": "Attentional Control",
+            "anatomy": "dlPFC - Attentional Control Circuits",
+            "endpoints": [
+                "Selective Attention",
+                "Divided Attention",
+                "Sustained Attention"
+            ],
+            "contains": [
+                {
+                    "id": "selective-attention",
+                    "name": "Selective Attention",
+                    "anatomy": "dlPFC - Selective Attention Circuits",
+                    "endpoints": [
+                        "Filtering Irrelevant Information",
+                        "Focusing on Task-Relevant Information",
+                        "Inhibiting Distractions"
+                    ]
+                },
+                {
+                    "id": "divided-attention",
+                    "name": "Divided Attention",
+                    "anatomy": "dlPFC - Divided Attention Circuits",
+                    "endpoints": [
+                        "Multitasking",
+                        "Resource Allocation",
+                        "Dual-Task Performance"
+                    ]
+                },
+                {
+                    "id": "sustained-attention",
+                    "name": "Sustained Attention",
+                    "anatomy": "dlPFC - Sustained Attention Circuits",
+                    "endpoints": [
+                        "Vigilance",
+                        "Maintaining Focus Over Time",
+                        "Resisting Fatigue"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "information-updating",
+            "name": "Information Updating",
+            "anatomy": "dlPFC - Information Updating Circuits",
+            "endpoints": [
+                "Monitoring",
+                "Manipulating",
+                "Replacing Old Information"
+            ],
+            "contains": [
+                {
+                    "id": "monitoring",
+                    "name": "Monitoring",
+                    "anatomy": "dlPFC - Monitoring Circuits",
+                    "endpoints": [
+                        "Error Detection",
+                        "Conflict Monitoring",
+                        "Performance Evaluation"
+                    ]
+                },
+                {
+                    "id": "manipulating",
+                    "name": "Manipulating",
+                    "anatomy": "dlPFC - Manipulating Circuits",
+                    "endpoints": [
+                        "Mental Rotation",
+                        "Mental Arithmetic",
+                        "Mental Transformation"
+                    ]
+                },
+                {
+                    "id": "replacing-old-information",
+                    "name": "Replacing Old Information",
+                    "anatomy": "dlPFC - Replacing Old Information Circuits",
+                    "endpoints": [
+                        "Updating Working Memory",
+                        "Discarding Irrelevant Information",
+                        "Incorporating New Information"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "task-switching",
+            "name": "Task Switching",
+            "anatomy": "dlPFC - Task Switching Circuits",
+            "endpoints": [
+                "Cognitive Flexibility",
+                "Set Shifting",
+                "Disengaging and Engaging"
+            ],
+            "contains": [
+                {
+                    "id": "cognitive-flexibility",
+                    "name": "Cognitive Flexibility",
+                    "anatomy": "dlPFC - Cognitive Flexibility Circuits",
+                    "endpoints": [
+                        "Adapting to Changing Demands",
+                        "Considering Alternative Perspectives",
+                        "Generating Novel Solutions"
+                    ]
+                },
+                {
+                    "id": "set-shifting",
+                    "name": "Set Shifting",
+                    "anatomy": "dlPFC - Set Shifting Circuits",
+                    "endpoints": [
+                        "Switching Between Task Sets",
+                        "Overcoming Perseveration",
+                        "Responding to Rule Changes"
+                    ]
+                },
+                {
+                    "id": "disengaging-and-engaging",
+                    "name": "Disengaging and Engaging",
+                    "anatomy": "dlPFC - Disengaging and Engaging Circuits",
+                    "endpoints": [
+                        "Inhibiting Previous Task Set",
+                        "Activating New Task Set",
+                        "Reconfiguring Mental Resources"
+                    ]
+                }
+            ]
+        }
+    ]
+}

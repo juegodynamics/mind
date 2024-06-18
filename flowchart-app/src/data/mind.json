@@ -1,0 +1,1207 @@
+{
+    "id": "cerebrum",
+    "name": "Complex of Thought & Coordination",
+    "anatomy": "Cerebrum",
+    "contains": [
+        {
+            "id": "frontal-lobe",
+            "name": "Executive Function & Motor Control",
+            "anatomy": "Frontal Lobe",
+            "contains": [
+                {
+                    "id": "pfc",
+                    "name": "Planning/Decision Arena",
+                    "anatomy": "Prefrontal Cortex (PFC)",
+                    "contains": [
+                        {
+                            "id": "dl-pfc",
+                            "name": "Executive Function",
+                            "anatomy": "Dorsolateral Prefrontal Cortex (dlPFC)",
+                            "contains": [
+                                {
+                                    "id": "working-memory",
+                                    "name": "Working Memory",
+                                    "anatomy": "dlPFC - Working Memory Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "verbal-working-memory",
+                                            "name": "Verbal Working Memory",
+                                            "anatomy": "Left dlPFC",
+                                            "endpoints": [
+                                                "Phonological Loop",
+                                                "Articulatory Rehearsal",
+                                                "Auditory Storage"
+                                            ],
+                                            "contains": [
+                                                {
+                                                    "id": "phonological-loop",
+                                                    "name": "Phonological Loop",
+                                                    "anatomy": "Left dlPFC - Phonological Loop Circuits",
+                                                    "endpoints": [
+                                                        "Phonological Store",
+                                                        "Subvocal Rehearsal",
+                                                        "Phonological Similarity Effect"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "phonological-store",
+                                                            "name": "Phonological Store",
+                                                            "anatomy": "Left dlPFC - Phonological Store Circuits",
+                                                            "endpoints": [
+                                                                "Auditory Input",
+                                                                "Decay Mechanism",
+                                                                "Phonological Representation"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "subvocal-rehearsal",
+                                                            "name": "Subvocal Rehearsal",
+                                                            "anatomy": "Left dlPFC - Subvocal Rehearsal Circuits",
+                                                            "endpoints": [
+                                                                "Articulatory Control Process",
+                                                                "Inner Speech",
+                                                                "Rehearsal Mechanism"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "articulatory-rehearsal",
+                                                    "name": "Articulatory Rehearsal",
+                                                    "anatomy": "Left dlPFC - Articulatory Rehearsal Circuits",
+                                                    "endpoints": [
+                                                        "Overt Speech",
+                                                        "Covert Speech",
+                                                        "Maintenance Rehearsal"
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "auditory-storage",
+                                                    "name": "Auditory Storage",
+                                                    "anatomy": "Left dlPFC - Auditory Storage Circuits",
+                                                    "endpoints": [
+                                                        "Echoic Memory",
+                                                        "Auditory Sensory Register",
+                                                        "Phonological Codes"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "spatial-working-memory",
+                                            "name": "Spatial Working Memory",
+                                            "anatomy": "Right dlPFC",
+                                            "endpoints": [
+                                                "Visuospatial Sketchpad",
+                                                "Object Manipulation",
+                                                "Spatial Updating"
+                                            ],
+                                            "contains": [
+                                                {
+                                                    "id": "visuospatial-sketchpad",
+                                                    "name": "Visuospatial Sketchpad",
+                                                    "anatomy": "Right dlPFC - Visuospatial Sketchpad Circuits",
+                                                    "endpoints": [
+                                                        "Visual Cache",
+                                                        "Inner Scribe",
+                                                        "Spatial Rehearsal"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "visual-cache",
+                                                            "name": "Visual Cache",
+                                                            "anatomy": "Right dlPFC - Visual Cache Circuits",
+                                                            "endpoints": [
+                                                                "Color Processing",
+                                                                "Shape Processing",
+                                                                "Texture Processing"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "color-processing",
+                                                                    "name": "Color Processing",
+                                                                    "anatomy": "Right dlPFC - Color Processing Circuits",
+                                                                    "endpoints": [
+                                                                        "Hue Discrimination",
+                                                                        "Saturation Discrimination",
+                                                                        "Brightness Discrimination"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "shape-processing",
+                                                                    "name": "Shape Processing",
+                                                                    "anatomy": "Right dlPFC - Shape Processing Circuits",
+                                                                    "endpoints": [
+                                                                        "Contour Integration",
+                                                                        "Shape Recognition",
+                                                                        "Mental Rotation"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "texture-processing",
+                                                                    "name": "Texture Processing",
+                                                                    "anatomy": "Right dlPFC - Texture Processing Circuits",
+                                                                    "endpoints": [
+                                                                        "Texture Discrimination",
+                                                                        "Texture Segregation",
+                                                                        "Texture Filling-In"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "inner-scribe",
+                                                            "name": "Inner Scribe",
+                                                            "anatomy": "Right dlPFC - Inner Scribe Circuits",
+                                                            "endpoints": [
+                                                                "Spatial Encoding",
+                                                                "Spatial Rehearsal",
+                                                                "Spatial Updating"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "spatial-encoding",
+                                                                    "name": "Spatial Encoding",
+                                                                    "anatomy": "Right dlPFC - Spatial Encoding Circuits",
+                                                                    "endpoints": [
+                                                                        "Location Encoding",
+                                                                        "Distance Encoding",
+                                                                        "Orientation Encoding"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "spatial-rehearsal",
+                                                                    "name": "Spatial Rehearsal",
+                                                                    "anatomy": "Right dlPFC - Spatial Rehearsal Circuits",
+                                                                    "endpoints": [
+                                                                        "Active Maintenance",
+                                                                        "Spatial Updating",
+                                                                        "Spatial Manipulation"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "spatial-updating",
+                                                                    "name": "Spatial Updating",
+                                                                    "anatomy": "Right dlPFC - Spatial Updating Circuits",
+                                                                    "endpoints": [
+                                                                        "Object Tracking",
+                                                                        "Mental Rotation",
+                                                                        "Perspective Taking"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "object-manipulation",
+                                                    "name": "Object Manipulation",
+                                                    "anatomy": "Right dlPFC - Object Manipulation Circuits",
+                                                    "endpoints": [
+                                                        "Mental Rotation",
+                                                        "Spatial Transformation",
+                                                        "Object Assembly"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "mental-rotation",
+                                                            "name": "Mental Rotation",
+                                                            "anatomy": "Right dlPFC - Mental Rotation Circuits",
+                                                            "endpoints": [
+                                                                "2D Rotation",
+                                                                "3D Rotation",
+                                                                "Perspective Taking"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "spatial-transformation",
+                                                            "name": "Spatial Transformation",
+                                                            "anatomy": "Right dlPFC - Spatial Transformation Circuits",
+                                                            "endpoints": [
+                                                                "Scaling",
+                                                                "Reflection",
+                                                                "Deformation"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "object-assembly",
+                                                            "name": "Object Assembly",
+                                                            "anatomy": "Right dlPFC - Object Assembly Circuits",
+                                                            "endpoints": [
+                                                                "Part-Whole Integration",
+                                                                "Spatial Reasoning",
+                                                                "3D Construction"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "spatial-updating",
+                                                    "name": "Spatial Updating",
+                                                    "anatomy": "Right dlPFC - Spatial Updating Circuits",
+                                                    "endpoints": [
+                                                        "Spatial Attention Shifting",
+                                                        "Object Tracking",
+                                                        "Mental Navigation"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "spatial-attention-shifting",
+                                                            "name": "Spatial Attention Shifting",
+                                                            "anatomy": "Right dlPFC - Spatial Attention Shifting Circuits",
+                                                            "endpoints": [
+                                                                "Covert Attention",
+                                                                "Overt Attention",
+                                                                "Attentional Disengagement"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "object-tracking",
+                                                            "name": "Object Tracking",
+                                                            "anatomy": "Right dlPFC - Object Tracking Circuits",
+                                                            "endpoints": [
+                                                                "Single Object Tracking",
+                                                                "Multiple Object Tracking",
+                                                                "Dynamic Updating"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "mental-navigation",
+                                                            "name": "Mental Navigation",
+                                                            "anatomy": "Right dlPFC - Mental Navigation Circuits",
+                                                            "endpoints": [
+                                                                "Spatial Mapping",
+                                                                "Path Integration",
+                                                                "Landmark-Based Navigation"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "central-executive",
+                                            "name": "Central Executive",
+                                            "anatomy": "dlPFC - Central Executive Circuits",
+                                            "endpoints": [
+                                                "Attentional Control",
+                                                "Information Updating",
+                                                "Task Switching"
+                                            ],
+                                            "contains": [
+                                                {
+                                                    "id": "attentional-control",
+                                                    "name": "Attentional Control",
+                                                    "anatomy": "dlPFC - Attentional Control Circuits",
+                                                    "endpoints": [
+                                                        "Selective Attention",
+                                                        "Divided Attention",
+                                                        "Sustained Attention"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "selective-attention",
+                                                            "name": "Selective Attention",
+                                                            "anatomy": "dlPFC - Selective Attention Circuits",
+                                                            "endpoints": [
+                                                                "Filtering Irrelevant Information",
+                                                                "Focusing on Task-Relevant Information",
+                                                                "Inhibiting Distractions"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "top-down-attention",
+                                                                    "name": "Top-Down Attention",
+                                                                    "anatomy": "dlPFC - Top-Down Attention Circuits",
+                                                                    "endpoints": [
+                                                                        "Goal-Directed Attention",
+                                                                        "Endogenous Attention",
+                                                                        "Voluntary Attention"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "bottom-up-attention",
+                                                                    "name": "Bottom-Up Attention",
+                                                                    "anatomy": "dlPFC - Bottom-Up Attention Circuits",
+                                                                    "endpoints": [
+                                                                        "Stimulus-Driven Attention",
+                                                                        "Exogenous Attention",
+                                                                        "Involuntary Attention"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "attentional-bias",
+                                                                    "name": "Attentional Bias",
+                                                                    "anatomy": "dlPFC - Attentional Bias Circuits",
+                                                                    "endpoints": [
+                                                                        "Threat Detection",
+                                                                        "Emotional Salience",
+                                                                        "Reward Sensitivity"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "divided-attention",
+                                                            "name": "Divided Attention",
+                                                            "anatomy": "dlPFC - Divided Attention Circuits",
+                                                            "endpoints": [
+                                                                "Multitasking",
+                                                                "Resource Allocation",
+                                                                "Dual-Task Performance"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "task-coordination",
+                                                                    "name": "Task Coordination",
+                                                                    "anatomy": "dlPFC - Task Coordination Circuits",
+                                                                    "endpoints": [
+                                                                        "Simultaneous Processing",
+                                                                        "Rapid Switching",
+                                                                        "Cross-Modal Integration"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "capacity-limitation",
+                                                                    "name": "Capacity Limitation",
+                                                                    "anatomy": "dlPFC - Capacity Limitation Circuits",
+                                                                    "endpoints": [
+                                                                        "Attentional Bottleneck",
+                                                                        "Resource Depletion",
+                                                                        "Performance Decrement"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "sustained-attention",
+                                                            "name": "Sustained Attention",
+                                                            "anatomy": "dlPFC - Sustained Attention Circuits",
+                                                            "endpoints": [
+                                                                "Vigilance",
+                                                                "Maintaining Focus Over Time",
+                                                                "Resisting Fatigue"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "attentional-maintenance",
+                                                                    "name": "Attentional Maintenance",
+                                                                    "anatomy": "dlPFC - Attentional Maintenance Circuits",
+                                                                    "endpoints": [
+                                                                        "Continuous Performance",
+                                                                        "Sustained Effort",
+                                                                        "Resistance to Distraction"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "attentional-lapses",
+                                                                    "name": "Attentional Lapses",
+                                                                    "anatomy": "dlPFC - Attentional Lapses Circuits",
+                                                                    "endpoints": [
+                                                                        "Momentary Disengagement",
+                                                                        "Mind Wandering",
+                                                                        "Fluctuations in Alertness"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "vigilance-decrement",
+                                                                    "name": "Vigilance Decrement",
+                                                                    "anatomy": "dlPFC - Vigilance Decrement Circuits",
+                                                                    "endpoints": [
+                                                                        "Decreased Sensitivity",
+                                                                        "Increased Response Time",
+                                                                        "Impaired Detection"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "attentional-shifting",
+                                                            "name": "Attentional Shifting",
+                                                            "anatomy": "dlPFC - Attentional Shifting Circuits",
+                                                            "endpoints": [
+                                                                "Disengaging Attention",
+                                                                "Engaging New Targets",
+                                                                "Switching Between Stimuli"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "spatial-shifting",
+                                                                    "name": "Spatial Shifting",
+                                                                    "anatomy": "dlPFC - Spatial Shifting Circuits",
+                                                                    "endpoints": [
+                                                                        "Reorienting Attention",
+                                                                        "Saccadic Eye Movements",
+                                                                        "Covert Attention Shifts"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "object-based-shifting",
+                                                                    "name": "Object-Based Shifting",
+                                                                    "anatomy": "dlPFC - Object-Based Shifting Circuits",
+                                                                    "endpoints": [
+                                                                        "Switching Between Features",
+                                                                        "Shifting Within Objects",
+                                                                        "Attending to Object Boundaries"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "cross-modal-shifting",
+                                                                    "name": "Cross-Modal Shifting",
+                                                                    "anatomy": "dlPFC - Cross-Modal Shifting Circuits",
+                                                                    "endpoints": [
+                                                                        "Switching Between Sensory Modalities",
+                                                                        "Integrating Multimodal Information",
+                                                                        "Supramodal Attention"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "inhibitory-control",
+                                                            "name": "Inhibitory Control",
+                                                            "anatomy": "dlPFC - Inhibitory Control Circuits",
+                                                            "endpoints": [
+                                                                "Response Inhibition",
+                                                                "Interference Suppression",
+                                                                "Cognitive Inhibition"
+                                                            ],
+                                                            "contains": [
+                                                                {
+                                                                    "id": "prepotent-response-inhibition",
+                                                                    "name": "Prepotent Response Inhibition",
+                                                                    "anatomy": "dlPFC - Prepotent Response Inhibition Circuits",
+                                                                    "endpoints": [
+                                                                        "Stopping Automatic Responses",
+                                                                        "Overriding Habits",
+                                                                        "Impulse Control"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "distractor-suppression",
+                                                                    "name": "Distractor Suppression",
+                                                                    "anatomy": "dlPFC - Distractor Suppression Circuits",
+                                                                    "endpoints": [
+                                                                        "Filtering Out Irrelevant Stimuli",
+                                                                        "Resisting Interference",
+                                                                        "Selective Inhibition"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "proactive-control",
+                                                                    "name": "Proactive Control",
+                                                                    "anatomy": "dlPFC - Proactive Control Circuits",
+                                                                    "endpoints": [
+                                                                        "Anticipatory Inhibition",
+                                                                        "Goal Maintenance",
+                                                                        "Sustained Control"
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "information-updating",
+                                                    "name": "Information Updating",
+                                                    "anatomy": "dlPFC - Information Updating Circuits",
+                                                    "endpoints": [
+                                                        "Monitoring",
+                                                        "Manipulating",
+                                                        "Replacing Old Information"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "monitoring",
+                                                            "name": "Monitoring",
+                                                            "anatomy": "dlPFC - Monitoring Circuits",
+                                                            "endpoints": [
+                                                                "Error Detection",
+                                                                "Conflict Monitoring",
+                                                                "Performance Evaluation"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "manipulating",
+                                                            "name": "Manipulating",
+                                                            "anatomy": "dlPFC - Manipulating Circuits",
+                                                            "endpoints": [
+                                                                "Mental Rotation",
+                                                                "Mental Arithmetic",
+                                                                "Mental Transformation"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "replacing-old-information",
+                                                            "name": "Replacing Old Information",
+                                                            "anatomy": "dlPFC - Replacing Old Information Circuits",
+                                                            "endpoints": [
+                                                                "Updating Working Memory",
+                                                                "Discarding Irrelevant Information",
+                                                                "Incorporating New Information"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "task-switching",
+                                                    "name": "Task Switching",
+                                                    "anatomy": "dlPFC - Task Switching Circuits",
+                                                    "endpoints": [
+                                                        "Cognitive Flexibility",
+                                                        "Set Shifting",
+                                                        "Disengaging and Engaging"
+                                                    ],
+                                                    "contains": [
+                                                        {
+                                                            "id": "cognitive-flexibility",
+                                                            "name": "Cognitive Flexibility",
+                                                            "anatomy": "dlPFC - Cognitive Flexibility Circuits",
+                                                            "endpoints": [
+                                                                "Adapting to Changing Demands",
+                                                                "Considering Alternative Perspectives",
+                                                                "Generating Novel Solutions"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "set-shifting",
+                                                            "name": "Set Shifting",
+                                                            "anatomy": "dlPFC - Set Shifting Circuits",
+                                                            "endpoints": [
+                                                                "Switching Between Task Sets",
+                                                                "Overcoming Perseveration",
+                                                                "Responding to Rule Changes"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "id": "disengaging-and-engaging",
+                                                            "name": "Disengaging and Engaging",
+                                                            "anatomy": "dlPFC - Disengaging and Engaging Circuits",
+                                                            "endpoints": [
+                                                                "Inhibiting Previous Task Set",
+                                                                "Activating New Task Set",
+                                                                "Reconfiguring Mental Resources"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "episodic-buffer",
+                                            "name": "Episodic Buffer",
+                                            "anatomy": "dlPFC - Episodic Buffer Circuits",
+                                            "endpoints": [
+                                                "Episodic Binding",
+                                                "Multimodal Integration",
+                                                "Temporary Storage"
+                                            ],
+                                            "contains": [
+                                                {
+                                                    "id": "episodic-binding",
+                                                    "name": "Episodic Binding",
+                                                    "anatomy": "dlPFC - Episodic Binding Circuits",
+                                                    "endpoints": [
+                                                        "Temporal Sequencing",
+                                                        "Contextual Associations",
+                                                        "Event Representation"
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "multimodal-integration",
+                                                    "name": "Multimodal Integration",
+                                                    "anatomy": "dlPFC - Multimodal Integration Circuits",
+                                                    "endpoints": [
+                                                        "Cross-modal Binding",
+                                                        "Multisensory Integration",
+                                                        "Supramodal Representation"
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "temporary-storage",
+                                                    "name": "Temporary Storage",
+                                                    "anatomy": "dlPFC - Temporary Storage Circuits",
+                                                    "endpoints": [
+                                                        "Short-term Retention",
+                                                        "Maintenance Mechanisms",
+                                                        "Capacity Limits"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "cognitive-flexibility",
+                                    "name": "Cognitive Flexibility",
+                                    "anatomy": "dlPFC - Cognitive Flexibility Circuits"
+                                },
+                                {
+                                    "id": "planning",
+                                    "name": "Planning",
+                                    "anatomy": "dlPFC - Planning Circuits"
+                                },
+                                {
+                                    "id": "reasoning",
+                                    "name": "Reasoning",
+                                    "anatomy": "dlPFC - Reasoning Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "deductive-reasoning",
+                                            "name": "Deductive Reasoning",
+                                            "anatomy": "Left dlPFC"
+                                        },
+                                        {
+                                            "id": "inductive-reasoning",
+                                            "name": "Inductive Reasoning",
+                                            "anatomy": "Right dlPFC"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "problem-solving",
+                                    "name": "Problem Solving",
+                                    "anatomy": "dlPFC - Problem Solving Circuits"
+                                },
+                                {
+                                    "id": "abstract-thinking",
+                                    "name": "Abstract Thinking",
+                                    "anatomy": "dlPFC - Abstract Thinking Circuits"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "vm-pfc",
+                            "name": "Emotional Regulation",
+                            "anatomy": "Ventromedial Prefrontal Cortex (vmPFC)",
+                            "contains": [
+                                {
+                                    "id": "emotional-control",
+                                    "name": "Emotional Control",
+                                    "anatomy": "vmPFC - Emotional Control Circuits"
+                                },
+                                {
+                                    "id": "decision-making",
+                                    "name": "Decision Making",
+                                    "anatomy": "vmPFC - Decision Making Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "value-based-decision-making",
+                                            "name": "Value-Based Decision Making",
+                                            "anatomy": "vmPFC - Value-Based Decision Making Circuits"
+                                        },
+                                        {
+                                            "id": "moral-decision-making",
+                                            "name": "Moral Decision Making",
+                                            "anatomy": "vmPFC - Moral Decision Making Circuits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "social-cognition",
+                                    "name": "Social Cognition",
+                                    "anatomy": "vmPFC - Social Cognition Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "theory-of-mind",
+                                            "name": "Theory of Mind",
+                                            "anatomy": "vmPFC - Theory of Mind Circuits"
+                                        },
+                                        {
+                                            "id": "empathy",
+                                            "name": "Empathy",
+                                            "anatomy": "vmPFC - Empathy Circuits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "reward-processing",
+                                    "name": "Reward Processing",
+                                    "anatomy": "vmPFC - Reward Processing Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "reward-anticipation",
+                                            "name": "Reward Anticipation",
+                                            "anatomy": "vmPFC - Reward Anticipation Circuits"
+                                        },
+                                        {
+                                            "id": "reward-valuation",
+                                            "name": "Reward Valuation",
+                                            "anatomy": "vmPFC - Reward Valuation Circuits"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "self-referential-processing",
+                                    "name": "Self-Referential Processing",
+                                    "anatomy": "vmPFC - Self-Referential Processing Circuits"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ofc",
+                            "name": "Impulse Control & Reward Valuation",
+                            "anatomy": "Orbitofrontal Cortex (OFC)",
+                            "contains": [
+                                {
+                                    "id": "impulse-control",
+                                    "name": "Impulse Control",
+                                    "anatomy": "OFC - Impulse Control Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "response-inhibition",
+                                            "name": "Response Inhibition",
+                                            "anatomy": "Lateral OFC"
+                                        },
+                                        {
+                                            "id": "delay-gratification",
+                                            "name": "Delay Gratification",
+                                            "anatomy": "Medial OFC"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "reward-valuation",
+                                    "name": "Reward Valuation",
+                                    "anatomy": "OFC - Reward Valuation Circuits",
+                                    "contains": [
+                                        {
+                                            "id": "reward-magnitude",
+                                            "name": "Reward Magnitude",
+                                            "anatomy": "Medial OFC"
+                                        },
+                                        {
+                                            "id": "reward-probability",
+                                            "name": "Reward Probability",
+                                            "anatomy": "Lateral OFC"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "emotional-regulation",
+                                    "name": "Emotional Regulation",
+                                    "anatomy": "OFC - Emotional Regulation Circuits"
+                                },
+                                {
+                                    "id": "olfactory-processing",
+                                    "name": "Olfactory Processing",
+                                    "anatomy": "OFC - Olfactory Processing Circuits"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "frontal-pole",
+                            "name": "Prospective Memory & Metacognition",
+                            "anatomy": "Frontal Pole (Brodmann Area 10)",
+                            "contains": [
+                                {
+                                    "id": "prospective-memory",
+                                    "name": "Prospective Memory",
+                                    "anatomy": "Frontal Pole - Prospective Memory Circuits"
+                                },
+                                {
+                                    "id": "metacognition",
+                                    "name": "Metacognition",
+                                    "anatomy": "Frontal Pole - Metacognition Circuits"
+                                },
+                                {
+                                    "id": "counterfactual-thinking",
+                                    "name": "Counterfactual Thinking",
+                                    "anatomy": "Frontal Pole - Counterfactual Thinking Circuits"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "motor-cortex",
+                    "name": "Motor Control",
+                    "anatomy": "Primary Motor Cortex",
+                    "contains": [
+                        {
+                            "id": "voluntary-movement",
+                            "name": "Voluntary Movement",
+                            "anatomy": "Primary Motor Cortex - Voluntary Movement Circuits",
+                            "contains": [
+                                {
+                                    "id": "upper-limb-movement",
+                                    "name": "Upper Limb Movement",
+                                    "anatomy": "Primary Motor Cortex - Upper Limb Movement Circuits"
+                                },
+                                {
+                                    "id": "lower-limb-movement",
+                                    "name": "Lower Limb Movement",
+                                    "anatomy": "Primary Motor Cortex - Lower Limb Movement Circuits"
+                                },
+                                {
+                                    "id": "facial-movement",
+                                    "name": "Facial Movement",
+                                    "anatomy": "Primary Motor Cortex - Facial Movement Circuits"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "motor-planning",
+                            "name": "Motor Planning",
+                            "anatomy": "Premotor Cortex",
+                            "contains": [
+                                {
+                                    "id": "action-selection",
+                                    "name": "Action Selection",
+                                    "anatomy": "Dorsal Premotor Cortex"
+                                },
+                                {
+                                    "id": "motor-sequence-learning",
+                                    "name": "Motor Sequence Learning",
+                                    "anatomy": "Ventral Premotor Cortex"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "motor-coordination",
+                            "name": "Motor Coordination",
+                            "anatomy": "Supplementary Motor Area",
+                            "contains": [
+                                {
+                                    "id": "bimanual-coordination",
+                                    "name": "Bimanual Coordination",
+                                    "anatomy": "Supplementary Motor Area - Bimanual Coordination Circuits"
+                                },
+                                {
+                                    "id": "motor-timing",
+                                    "name": "Motor Timing",
+                                    "anatomy": "Supplementary Motor Area - Motor Timing Circuits"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fine-motor-control",
+                            "name": "Fine Motor Control",
+                            "anatomy": "Primary Motor Cortex - Fine Motor Control Circuits"
+                        },
+                        {
+                            "id": "motor-skill-learning",
+                            "name": "Motor Skill Learning",
+                            "anatomy": "Motor Cortex - Motor Skill Learning Circuits"
+                        },
+                        {
+                            "id": "motor-imagery",
+                            "name": "Motor Imagery",
+                            "anatomy": "Motor Cortex - Motor Imagery Circuits"
+                        }
+                    ]
+                },
+                {
+                    "id": "broca-area",
+                    "name": "Speech Production",
+                    "anatomy": "Broca's Area",
+                    "contains": [
+                        {
+                            "id": "speech-articulation",
+                            "name": "Speech Articulation",
+                            "anatomy": "Broca's Area - Speech Articulation Circuits"
+                        },
+                        {
+                            "id": "phonological-processing",
+                            "name": "Phonological Processing",
+                            "anatomy": "Broca's Area - Phonological Processing Circuits"
+                        },
+                        {
+                            "id": "syntactic-processing",
+                            "name": "Syntactic Processing",
+                            "anatomy": "Broca's Area - Syntactic Processing Circuits"
+                        },
+                        {
+                            "id": "sign-language-production",
+                            "name": "Sign Language Production",
+                            "anatomy": "Broca's Area - Sign Language Production Circuits"
+                        }
+                    ]
+                },
+                {
+                    "id": "dlpfc-language-network",
+                    "name": "Language Processing",
+                    "anatomy": "Dorsolateral Prefrontal Cortex - Language Network",
+                    "contains": [
+                        {
+                            "id": "verbal-fluency",
+                            "name": "Verbal Fluency",
+                            "anatomy": "dlPFC - Verbal Fluency Circuits"
+                        },
+                        {
+                            "id": "language-control",
+                            "name": "Language Control",
+                            "anatomy": "dlPFC - Language Control Circuits"
+                        },
+                        {
+                            "id": "language-comprehension",
+                            "name": "Language Comprehension",
+                            "anatomy": "dlPFC - Language Comprehension Circuits"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "parietal-lobe",
+            "name": "Spatial Awareness & Sensory Integration",
+            "anatomy": "Parietal Lobe",
+            "contains": [
+                {
+                    "id": "somatosensory-cortex",
+                    "name": "Sensory Processing",
+                    "anatomy": "Primary Somatosensory Cortex",
+                    "contains": [
+                        {
+                            "id": "touch-perception",
+                            "name": "Touch Perception",
+                            "anatomy": "Primary Somatosensory Cortex - Touch Perception Circuits"
+                        },
+                        {
+                            "id": "proprioception",
+                            "name": "Proprioception",
+                            "anatomy": "Primary Somatosensory Cortex - Proprioception Circuits"
+                        },
+                        {
+                            "id": "body-schema",
+                            "name": "Body Schema",
+                            "anatomy": "Somatosensory Association Cortex"
+                        },
+                        {
+                            "id": "tactile-discrimination",
+                            "name": "Tactile Discrimination",
+                            "anatomy": "Secondary Somatosensory Cortex"
+                        }
+                    ]
+                },
+                {
+                    "id": "spatial-processing",
+                    "name": "Spatial Processing",
+                    "anatomy": "Parietal Lobe - Spatial Processing Circuits",
+                    "contains": [
+                        {
+                            "id": "spatial-perception",
+                            "name": "Spatial Perception",
+                            "anatomy": "Posterior Parietal Cortex"
+                        },
+                        {
+                            "id": "navigation",
+                            "name": "Navigation",
+                            "anatomy": "Precuneus"
+                        },
+                        {
+                            "id": "spatial-attention",
+                            "name": "Spatial Attention",
+                            "anatomy": "Inferior Parietal Lobule"
+                        }
+                    ]
+                },
+                {
+                    "id": "sensory-integration",
+                    "name": "Sensory Integration",
+                    "anatomy": "Parietal Lobe - Sensory Integration Circuits"
+                }
+            ]
+        },
+        {
+            "id": "temporal-lobe",
+            "name": "Memory, Emotion & Language",
+            "anatomy": "Temporal Lobe",
+            "contains": [
+                {
+                    "id": "hippocampus",
+                    "name": "Memory Formation",
+                    "anatomy": "Hippocampus",
+                    "contains": [
+                        {
+                            "id": "short-term-memory",
+                            "name": "Short-term Memory",
+                            "anatomy": "Hippocampus - Short-term Memory Circuits"
+                        },
+                        {
+                            "id": "long-term-memory",
+                            "name": "Long-term Memory",
+                            "anatomy": "Hippocampus - Long-term Memory Circuits",
+                            "contains": [
+                                {
+                                    "id": "memory-consolidation",
+                                    "name": "Memory Consolidation",
+                                    "anatomy": "Hippocampus - Memory Consolidation Circuits"
+                                },
+                                {
+                                    "id": "memory-retrieval",
+                                    "name": "Memory Retrieval",
+                                    "anatomy": "Hippocampus - Memory Retrieval Circuits"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "spatial-memory",
+                            "name": "Spatial Memory",
+                            "anatomy": "Hippocampus - Spatial Memory Circuits"
+                        }
+                    ]
+                },
+                {
+                    "id": "amygdala",
+                    "name": "Emotional Processing",
+                    "anatomy": "Amygdala",
+                    "contains": [
+                        {
+                            "id": "fear-processing",
+                            "name": "Fear Processing",
+                            "anatomy": "Amygdala - Fear Processing Circuits"
+                        },
+                        {
+                            "id": "emotion-memory",
+                            "name": "Emotional Memory",
+                            "anatomy": "Amygdala - Emotional Memory Circuits"
+                        },
+                        {
+                            "id": "reward-processing",
+                            "name": "Reward Processing",
+                            "anatomy": "Amygdala - Reward Processing Circuits"
+                        },
+                        {
+                            "id": "social-cognition",
+                            "name": "Social Cognition",
+                            "anatomy": "Amygdala - Social Cognition Circuits"
+                        }
+                    ]
+                },
+                {
+                    "id": "wernicke-area",
+                    "name": "Language Comprehension",
+                    "anatomy": "Wernicke's Area"
+                },
+                {
+                    "id": "auditory-cortex",
+                    "name": "Auditory Processing",
+                    "anatomy": "Primary Auditory Cortex",
+                    "contains": [
+                        {
+                            "id": "pitch-perception",
+                            "name": "Pitch Perception",
+                            "anatomy": "Primary Auditory Cortex - Pitch Perception Circuits"
+                        },
+                        {
+                            "id": "sound-localization",
+                            "name": "Sound Localization",
+                            "anatomy": "Primary Auditory Cortex - Sound Localization Circuits"
+                        },
+                        {
+                            "id": "speech-perception",
+                            "name": "Speech Perception",
+                            "anatomy": "Superior Temporal Gyrus"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "occipital-lobe",
+            "name": "Visual Processing",
+            "anatomy": "Occipital Lobe",
+            "contains": [
+                {
+                    "id": "primary-visual-cortex",
+                    "name": "Primary Visual Processing",
+                    "anatomy": "Primary Visual Cortex (V1)",
+                    "contains": [
+                        {
+                            "id": "color-perception",
+                            "name": "Color Perception",
+                            "anatomy": "V1 - Color Perception Circuits"
+                        },
+                        {
+                            "id": "edge-detection",
+                            "name": "Edge Detection",
+                            "anatomy": "V1 - Edge Detection Circuits"
+                        },
+                        {
+                            "id": "contrast-sensitivity",
+                            "name": "Contrast Sensitivity",
+                            "anatomy": "V1 - Contrast Sensitivity Circuits"
+                        }
+                    ]
+                },
+                {
+                    "id": "visual-association-cortex",
+                    "name": "Visual Perception & Recognition",
+                    "anatomy": "Visual Association Cortex",
+                    "contains": [
+                        {
+                            "id": "object-recognition",
+                            "name": "Object Recognition",
+                            "anatomy": "Inferior Temporal Gyrus"
+                        },
+                        {
+                            "id": "face-recognition",
+                            "name": "Face Recognition",
+                            "anatomy": "Fusiform Gyrus"
+                        },
+                        {
+                            "id": "motion-perception",
+                            "name": "Motion Perception",
+                            "anatomy": "V5/MT (Middle Temporal Visual Area)"
+                        },
+                        {
+                            "id": "depth-perception",
+                            "name": "Depth Perception",
+                            "anatomy": "V3 (Third Visual Area)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "insula",
+            "name": "Interoception & Emotion",
+            "anatomy": "Insular Cortex",
+            "contains": [
+                {
+                    "id": "interoception",
+                    "name": "Interoception",
+                    "anatomy": "Anterior Insula"
+                },
+                {
+                    "id": "emotional-awareness",
+                    "name": "Emotional Awareness",
+                    "anatomy": "Anterior Insula - Emotional Awareness Circuits"
+                },
+                {
+                    "id": "gustatory-processing",
+                    "name": "Gustatory Processing",
+                    "anatomy": "Insular Cortex - Gustatory Processing Circuits"
+                }
+            ]
+        },
+        {
+            "id": "cingulate-cortex",
+            "name": "Emotion, Motivation & Cognitive Control",
+            "anatomy": "Cingulate Cortex",
+            "contains": [
+                {
+                    "id": "anterior-cingulate",
+                    "name": "Error Detection & Conflict Monitoring",
+                    "anatomy": "Anterior Cingulate Cortex (ACC)"
+                },
+                {
+                    "id": "posterior-cingulate",
+                    "name": "Autobiographical Memory & Self-Referential Processing",
+                    "anatomy": "Posterior Cingulate Cortex (PCC)"
+                },
+                {
+                    "id": "motivation",
+                    "name": "Motivation",
+                    "anatomy": "Cingulate Cortex - Motivation Circuits"
+                },
+                {
+                    "id": "emotional-processing",
+                    "name": "Emotional Processing",
+                    "anatomy": "Cingulate Cortex - Emotional Processing Circuits"
+                }
+            ]
+        }
+    ]
+}
